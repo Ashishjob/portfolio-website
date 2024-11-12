@@ -1,0 +1,117 @@
+{
+  "name": "Ashish",
+  "headerTaglineOne": "ello,",
+  "headerTaglineTwo": "I'm Ashish Job",
+  "showCursor": true,
+  "showBlog": true,
+  "darkMode": true,
+  "showResume": true,
+  "socials": [
+    { "id": "1", "title": "Github", "link": "https://github.com/Ashishjob" },
+    {
+      "id": "2",
+      "title": "LinkedIn",
+      "link": "https://www.linkedin.com/in/ashish-job/"
+    },
+    { "id": "3", "title": "Blog", "link": "/blog" },
+    { "id": "4", "title": "Email", "link": "mailto:ashishjob104@gmail.com" }
+  ],
+  "projects": [
+    {
+      "id": "1",
+      "title": "Resumes.fyi",
+      "description": "Co-founder",
+      "dates": "April 2024 - Present",
+      "imageSrc": "/images/resumesfyi.svg",
+      "url": "http://resumes.fyi/",
+      "imgMobile": "/images/resumesfyi-mobile.svg"
+    },
+    {
+      "id": "2",
+      "title": "JPMorganChase",
+      "description": "Software Engineer Intern",
+      "dates": "June 2024 - August 2024",
+      "imageSrc": "/images/jpmc.svg",
+      "url": "http://jpmc.com/",
+      "imgMobile": "/images/jpmc-mobile.svg"
+    },
+    {
+      "id": "3",
+      "title": "NASA",
+      "description": "Software Engineer Intern",
+      "dates": "January 2024 - Present",
+      "imageSrc": "/images/nasa.svg",
+      "url": "http://nasa.gov/",
+      "imgMobile": "/images/nasa-mobile.svg"
+    },
+    {
+      "id": "4",
+      "title": "University of Houston",
+      "description": "Teaching Assistant",
+      "dates": "August 2024 - Present",
+      "imageSrc": "/images/uh.svg",
+      "url": "http://uh.edu/",
+      "imgMobile": "/images/uh-mobile.svg"
+    },
+    {
+      "id": "5",
+      "title": "Structures and Artificial Intelligence Lab",
+      "description": "Undergraduate Research Assistant",
+      "dates": "May 2023 - September 2023",
+      "imageSrc": "/images/sail.svg",
+      "url": "https://sail.cive.uh.edu/",
+      "imgMobile": "/images/sail-mobile.svg"
+    }
+  ],
+  "services": [
+    {
+      "id": "1",
+      "title": "Art Direction",
+      "description": "We help with the creation and development of online advertising ideas, with particular focus on their visual appearance."
+    },
+    {
+      "id": "2",
+      "title": "Branding",
+      "description": "We design key brand elements such as the logo, color scheme, typography, and other design components that makes your brand stand out from competitors."
+    },
+    {
+      "id": "3",
+      "title": "Web Design",
+      "description": "We build and optimize your online presence.  Website is the digital entry point into your business and a powerful revenue channel."
+    },
+    {
+      "id": "4",
+      "title": "3D Design",
+      "description": "We combine creative design and technical skills to build striking 3D visualisations that bring your project to life."
+    }
+  ],
+  "aboutpara": "Hey! I'm Ashish, studying computer science with a minor in math at the University of Houston. I'm really interested in AI and software engineering, and outside of tech, I love pandas, volleyball, drawing, manga, and discovering new music.",
+  "resume": {
+    "tagline": "👋  I'm a software engineer, product designer.",
+    "description": "I have delivered world-class user experiences to millions of people. Well-versed with React, Javascript, and most of the Web frameworks.",
+    "experiences": [
+      {
+        "id": "1",
+        "dates": "March 2022 - Present",
+        "type": "Full Time",
+        "position": "Frontend Engineer at X",
+        "bullets": "Bullet One, Bullet Two"
+      },
+      {
+        "id": "d495c23b-4f65-479a-9b8a-cfbc1c089725",
+        "dates": "July 2020 - March 2022",
+        "type": "Full Time",
+        "position": "Frontend Engineer at X",
+        "bullets": "Worked on the frontend of a React application, Worked on the frontend of a React application"
+      }
+    ],
+    "education": {
+      "universityName": "University X",
+      "universityDate": "2016-2020",
+      "universityPara": "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry&apos;s standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book"
+    },
+    "languages": ["Javascript", "HTML5", "CSS", "Python", "Go"],
+    "frameworks": ["React", "Typescript", "NodeJs"],
+    "others": ["Figma", "AdobeXD", "AWS"]
+  }
+}
