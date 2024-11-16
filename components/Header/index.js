@@ -29,7 +29,6 @@ const Header = ({ handleWorkScroll, handleAboutScroll, isBlog }) => {
               >
                 {name}.
               </h1>
-
               <div className="flex items-center">
                 {data.darkMode && (
                   <Button
@@ -38,17 +37,16 @@ const Header = ({ handleWorkScroll, handleAboutScroll, isBlog }) => {
                     }
                   >
                     <img
-                      className="h-6"
+                      className="h-6 object-contain"
                       src={`/images/${
                         theme === "dark" ? "moon.svg" : "sun.svg"
                       }`}
                     ></img>
                   </Button>
                 )}
-
                 <Popover.Button>
                   <img
-                    className="h-5"
+                    className="h-5 object-contain"
                     src={`/images/${
                       !open
                         ? theme === "dark"
@@ -83,12 +81,6 @@ const Header = ({ handleWorkScroll, handleAboutScroll, isBlog }) => {
                       Resume
                     </Button>
                   )}
-
-                  <Button
-                    onClick={() => window.open("mailto:hello@chetanverma.com")}
-                  >
-                    Contact
-                  </Button>
                 </div>
               ) : (
                 <div className="grid grid-cols-1">
@@ -106,12 +98,6 @@ const Header = ({ handleWorkScroll, handleAboutScroll, isBlog }) => {
                       Resume
                     </Button>
                   )}
-
-                  <Button
-                    onClick={() => window.open("mailto:hello@chetanverma.com")}
-                  >
-                    Contact
-                  </Button>
                 </div>
               )}
             </Popover.Panel>
@@ -123,6 +109,7 @@ const Header = ({ handleWorkScroll, handleAboutScroll, isBlog }) => {
           theme === "light" && "bg-white"
         } dark:text-white top-0 z-10 tablet:flex`}
       >
+        
         <h1
           onClick={() => router.push("/")}
           className="font-medium cursor-pointer mob:p-2 laptop:p-0"
@@ -145,15 +132,13 @@ const Header = ({ handleWorkScroll, handleAboutScroll, isBlog }) => {
               </Button>
             )}
 
-            <Button onClick={() => window.open("mailto:hello@chetanverma.com")}>
-              Contact
-            </Button>
+
             {mounted && theme && data.darkMode && (
               <Button
                 onClick={() => setTheme(theme === "dark" ? "light" : "dark")}
               >
                 <img
-                  className="h-6"
+                  className="h-6 object-contain"
                   src={`/images/${theme === "dark" ? "moon.svg" : "sun.svg"}`}
                 ></img>
               </Button>
@@ -174,16 +159,12 @@ const Header = ({ handleWorkScroll, handleAboutScroll, isBlog }) => {
               </Button>
             )}
 
-            <Button onClick={() => window.open("mailto:hello@chetanverma.com")}>
-              Contact
-            </Button>
-
             {mounted && theme && data.darkMode && (
               <Button
                 onClick={() => setTheme(theme === "dark" ? "light" : "dark")}
               >
                 <img
-                  className="h-6"
+                  className="h-6 object-contain"
                   src={`/images/${theme === "dark" ? "moon.svg" : "sun.svg"}`}
                 ></img>
               </Button>

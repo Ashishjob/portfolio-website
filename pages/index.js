@@ -103,15 +103,15 @@ export default function Home() {
           <h1 className="text-3xl text-bold">Work Experience.</h1>
 
           <div className="mt-5 laptop:mt-10 grid grid-cols-1 tablet:grid-cols-1 gap-4">
-            {data.projects.map((project) => (
+            {data.experiences.map((experience) => (
               <WorkCard
-                key={project.id}
-                img={project.imageSrc}
-                name={project.title}
-                description={project.description}
-                dates={project.dates}
-                imgMobile={project.imgMobile}
-                onClick={() => window.open(project.url)}
+                key={experience.id}
+                img={experience.imageSrc}
+                name={experience.title}
+                description={experience.description}
+                dates={experience.dates}
+                imgMobile={experience.imgMobile}
+                onClick={() => window.open(experience.url)}
               />
             ))}
           </div>
@@ -119,12 +119,13 @@ export default function Home() {
 
         <div className="mt-10 laptop:mt-30 p-2 laptop:p-0">
           <h1 className="tablet:mt-10 text-3xl text-bold">Projects.</h1>
-          <div className="mt-5 tablet:m-10 grid grid-cols-1 laptop:grid-cols-2 gap-6">
-            {data.services.map((service, index) => (
+          <div className="mt-5 tablet:m-10 grid grid-cols-1 laptop:grid-cols-1 gap-0">
+            {data.projects.map((project, index) => (
               <ServiceCard
                 key={index}
-                name={service.title}
-                description={service.description}
+                name={project.title}
+                description={project.description}
+                link={project.link}
               />
             ))}
           </div>

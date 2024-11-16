@@ -16,7 +16,7 @@
     { "id": "3", "title": "Blog", "link": "/blog" },
     { "id": "4", "title": "Email", "link": "mailto:ashishjob104@gmail.com" }
   ],
-  "projects": [
+  "experiences": [
     {
       "id": "1",
       "title": "Resumes.fyi",
@@ -63,26 +63,71 @@
       "imgMobile": "/images/sail-mobile.svg"
     }
   ],
-  "services": [
+  "projects":[
     {
-      "id": "1",
-      "title": "Art Direction",
-      "description": "We help with the creation and development of online advertising ideas, with particular focus on their visual appearance."
+      "title": "Stasis",
+      "description": "Stasis is a psychological horror game set on an abandoned space station. Players navigate a chilling environment, manage resources, and solve puzzles while uncovering the mystery of a terrifying alien entity.",
+      "link": "https://github.com/Sterling-Gore/Game-Dev"
     },
     {
-      "id": "2",
-      "title": "Branding",
-      "description": "We design key brand elements such as the logo, color scheme, typography, and other design components that makes your brand stand out from competitors."
+      "title": "CanCare for Good",
+      "description": "CanCare is a project built for JPMC's Code for Good competition. It features an enhanced UI/UX for 100% form completion, optimized matching algorithms for reduced latency, and an AI chatbot for instant client access. Our efforts secured 1st place in the competition.",
+      "link": "https://www.youtube.com/embed/5AnWT0wbHak?si=jyczimiQ6PAIwhWC"
     },
     {
-      "id": "3",
-      "title": "Web Design",
-      "description": "We build and optimize your online presence.  Website is the digital entry point into your business and a powerful revenue channel."
+      "title": "Templit",
+      "description": "Templit is a customizable tool that lets users create professional product mockups effortlessly. Perfect for e-commerce sites, it provides a quick and user-friendly experience with curated sets of mockups for inspiration.",
+      "link": "https://templit.net/"
     },
     {
-      "id": "4",
-      "title": "3D Design",
-      "description": "We combine creative design and technical skills to build striking 3D visualisations that bring your project to life."
+      "title": "Neuroharmony",
+      "description": "Neuroharmony is a platform designed to support neurodivergent individuals by matching them with supportive communities and providing AI assistance and resources.",
+      "link": "https://github.com/Ashishjob/neuroharmony"
+    },
+    {
+      "title": "Baker Museum",
+      "description": "Baker Museum is a fullstack project focused on designing and implementing a sophisticated database system tailored for an art museum environment.",
+      "link": "https://www.bakermuseum.art/"
+    },
+    {
+      "title": "NeuroScore",
+      "description": "NeuroScore is a Swift app that allows users to track their Glasgow Coma Scores and recovery progress with recorded vocal notes and growth visualizations.",
+      "link": "https://github.com/Ashishjob/NeuroScore"
+    },
+    {
+      "title": "GitStudy",
+      "description": "GitStudy is a study group platform that we built for hackMISSO 2024 with Next.js. It allows users to create and join study groups, share resources, and collaborate on projects.",
+      "link": "https://git-study-self.vercel.app/"
+    },
+    {
+      "title": "Stellar Scholars",
+      "description": "Stellar Scholars is an educational game built using React and OpenAI's GPT API. It teaches young minds about galaxies and gravity through an interactive and engaging platform.",
+      "link": "http://stellarscholars.tech/"
+    },
+    {
+      "title": "TBI-Project",
+      "description": "TBI-Project explores data-driven methods to analyze Glasgow Coma Scale scores and identify risk factors, with a focus on predictive modeling.",
+      "link": "https://github.com/Ashishjob/TBI-Project"
+    },
+    {
+      "title": "Tama-Catch-Em-All",
+      "description": "Tama-Catch-Em-All is an object-oriented Tamagotchi game where users take care of and level up their Pokémon in a fun and interactive environment.",
+      "link": "https://github.com/Ashishjob/TBI-Project"
+    },
+    {
+      "title": "Bloom",
+      "description": "Bloom is your digital wellness companion, combining gamified tasks and personalized tree nurturing to promote mental well-being. It offers an innovative way to cultivate mindfulness and positivity.",
+      "link": "https://www.figma.com/embed?embed_host=share&url=https%3A%2F%2Fwww.figma.com%2Fproto%2FtbX9jNSBJlXaXvGx6PWDHX%2Fbloom---Catalyst-Designathon%3Ftype%3Ddesign%26node-id%3D65-1407%26t%3DYxGivtXy8oCqaFMq-1%26scaling%3Dscale-down%26page-id%3D2%253A4%26starting-point-node-id%3D65%253A1407%26mode%3Ddesign"
+    },
+    {
+      "title": "Data & Society: Data Visualization Project",
+      "description": "This project leverages Kepler.gl for dynamic data visualizations and linear regression models. It includes a user-friendly website that bridges data insights and accessibility.",
+      "link": "https://docs.google.com/presentation/d/e/2PACX-1vTbWV27YhxNPKzljmBkYUR4ljiKPYZVv8rMTZWeRf0XHOsjFvdpTJCw4kEtAlyhhXobwNCr7VoBltcC/pub?start=false&loop=false&delayms=3000"
+    },
+    {
+      "title": "MISSO x CougarCS Case Quest: Uni-Link",
+      "description": "Uni-Link is an online marketplace prototype for students, designed collaboratively for MISSO x CougarCS Case Quest.",
+      "link": "https://www.figma.com/embed?embed_host=share&url=https%3A%2F%2Fwww.figma.com%2Fproto%2Fyxq73L0ROn9tvJZSwPrB6D%2FUntitled%3Fnode-id%3D2-3%26starting-point-node-id%3D2%253A3%26t%3DgXdH5qMbaidiTPAi-1%26mode%3Ddesign"
     }
   ],
   "aboutpara": "Hey! I'm Ashish, studying computer science with a minor in math at the University of Houston. I'm really interested in AI and software engineering, and outside of tech, I love pandas, volleyball, drawing, manga, and discovering new music.",
