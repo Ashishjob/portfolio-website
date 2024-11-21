@@ -71,7 +71,7 @@
     },
     {
       "title": "CanCare for Good",
-      "description": "CanCare is a project built for JPMC's Code for Good competition. It features an enhanced UI/UX for 100% form completion, optimized matching algorithms for reduced latency, and an AI chatbot for instant client access. Our efforts secured 1st place in the competition.",
+      "description": "CanCare is a project built for JPMC's Code for Good competition. It features an enhanced UI/UX for 100% form completion, optimized matching algorithms for reduced latency, and an AI chatbot for instant client access; winner of the JPMC Code for Good Hackathon.",
       "link": "https://www.youtube.com/embed/5AnWT0wbHak?si=jyczimiQ6PAIwhWC"
     },
     {
@@ -81,12 +81,12 @@
     },
     {
       "title": "SyslogAI",
-      "description": "SyslogAI is an AI-powered system for analyzing and managing network syslogs, offering classification, trend analysis, error filtering, and suggested solutions to enhance troubleshooting and reduce downtime.",
+      "description": "SyslogAI is an AI-powered system for analyzing and managing network syslogs, offering classification, trend analysis, error filtering, and suggested solutions to enhance troubleshooting and reduce downtime; placed in the Meta Rotational Network Engineer hackathon competition.",
       "link": "https://github.com/Ashishjob/Pinto"
     },
     {
       "title": "WonderPickle",
-      "description": "WonderPickle is an interactive multimedia platform that pairs stunning JWST space imagery with curated music for an immersive audio-visual experience.",
+      "description": "WonderPickle is an interactive multimedia platform that pairs stunning JWST space imagery with curated music for an immersive audio-visual experience; winner of the NASA JSC Hack hackathon challenge.",
       "link": "https://github.com/Ashishjob/Pickle/tree/main/pickle-jsc"
     },
     {
@@ -106,12 +106,12 @@
     },
     {
       "title": "GitStudy",
-      "description": "GitStudy is a study group platform that we built for hackMISSO 2024 with Next.js. It allows users to create and join study groups, share resources, and collaborate on projects.",
+      "description": "GitStudy is a study group platform that allows users to create and join study groups, share resources, and collaborate on projects; winner of the hackMISSO 2024 hackathon.",
       "link": "https://git-study-self.vercel.app/"
     },
     {
       "title": "Stellar Scholars",
-      "description": "Stellar Scholars is an educational game built using React and OpenAI's GPT API. It teaches young minds about galaxies and gravity through an interactive and engaging platform.",
+      "description": "Stellar Scholars is an educational game built using React and OpenAI's GPT API. It teaches young minds about galaxies and gravity through an interactive and engaging platform; placed in the TAMUhack hackathon general track and L3 Harris company track, won best design, and best use of AI in Cloudflare",
       "link": "http://stellarscholars.tech/"
     },
     {
@@ -136,7 +136,7 @@
     },
     {
       "title": "MISSO x CougarCS Case Quest: Uni-Link",
-      "description": "Uni-Link is an online marketplace prototype for students, designed collaboratively for MISSO x CougarCS Case Quest.",
+      "description": "Uni-Link is an online marketplace prototype for students, designed collaboratively for MISSO x CougarCS Case Quest; placed in the CaseQuest Hackathon/Ideathon competition.",
       "link": "https://www.figma.com/embed?embed_host=share&url=https%3A%2F%2Fwww.figma.com%2Fproto%2Fyxq73L0ROn9tvJZSwPrB6D%2FUntitled%3Fnode-id%3D2-3%26starting-point-node-id%3D2%253A3%26t%3DgXdH5qMbaidiTPAi-1%26mode%3Ddesign"
     }
   ],
