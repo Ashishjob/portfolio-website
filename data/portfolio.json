@@ -1,6 +1,6 @@
 {
   "name": "Ashish",
-  "headerTaglineOne": "ello,",
+  "headerTaglineOne": "'ello,",
   "headerTaglineTwo": "I'm Ashish Job",
   "showCursor": true,
   "showBlog": true,
@@ -78,6 +78,16 @@
       "title": "Templit",
       "description": "Templit is a customizable tool that lets users create professional product mockups effortlessly. Perfect for e-commerce sites, it provides a quick and user-friendly experience with curated sets of mockups for inspiration.",
       "link": "https://templit.net/"
+    },
+    {
+      "title": "SyslogAI",
+      "description": "SyslogAI is an AI-powered system for analyzing and managing network syslogs, offering classification, trend analysis, error filtering, and suggested solutions to enhance troubleshooting and reduce downtime.",
+      "link": "https://github.com/Ashishjob/Pinto"
+    },
+    {
+      "title": "WonderPickle",
+      "description": "WonderPickle is an interactive multimedia platform that pairs stunning JWST space imagery with curated music for an immersive audio-visual experience.",
+      "link": "https://github.com/Ashishjob/Pickle/tree/main/pickle-jsc"
     },
     {
       "title": "Neuroharmony",
