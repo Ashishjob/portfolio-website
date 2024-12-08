@@ -6,7 +6,7 @@ import Button from "../Button";
 // Local Data
 import data from "../../data/portfolio.json";
 
-const Header = ({ handleWorkScroll, handleAboutScroll, isBlog }) => {
+const Header = ({ handleWorkScroll, handleAboutScroll, handleVinylCollectionScroll, isBlog }) => {
   const router = useRouter();
   const { theme, setTheme } = useTheme();
   const [mounted, setMounted] = useState(false);
@@ -72,6 +72,7 @@ const Header = ({ handleWorkScroll, handleAboutScroll, isBlog }) => {
                   {showBlog && (
                     <Button onClick={() => router.push("/blog")}>Blog</Button>
                   )}
+                  <Button onClick={handleVinylCollectionScroll}>My Vinyl Collection</Button>
                   {showResume && (
                     <Button
                       onClick={() =>
@@ -98,6 +99,7 @@ const Header = ({ handleWorkScroll, handleAboutScroll, isBlog }) => {
                       Resume
                     </Button>
                   )}
+                  <Button onClick={handleVinylCollectionScroll}>My Vinyl Collection</Button>
                 </div>
               )}
             </Popover.Panel>
@@ -131,6 +133,7 @@ const Header = ({ handleWorkScroll, handleAboutScroll, isBlog }) => {
                 Resume
               </Button>
             )}
+            <Button onClick={handleVinylCollectionScroll}>My Vinyl Collection</Button>
 
 
             {mounted && theme && data.darkMode && (
@@ -158,6 +161,9 @@ const Header = ({ handleWorkScroll, handleAboutScroll, isBlog }) => {
                 Resume
               </Button>
             )}
+            <Button onClick={handleVinylCollectionScroll}>My Vinyl Collection</Button>
+
+
 
             {mounted && theme && data.darkMode && (
               <Button

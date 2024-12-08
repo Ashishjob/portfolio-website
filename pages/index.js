@@ -10,6 +10,7 @@ import Head from "next/head";
 import Button from "../components/Button";
 import Link from "next/link";
 import Cursor from "../components/Cursor";
+import VinylCollection from "../components/VinylSection";
 
 // Local Data
 import data from "../data/portfolio.json";
@@ -18,6 +19,7 @@ export default function Home() {
   // Ref
   const workRef = useRef();
   const aboutRef = useRef();
+  const vinylCollectionRef = useRef();
   const textOne = useRef();
   const textTwo = useRef();
   const textThree = useRef();
@@ -38,6 +40,16 @@ export default function Home() {
       left: 0,
       behavior: "smooth",
     });
+  };
+
+  const handleVinylCollectionScroll = () => {
+    if (vinylCollectionRef.current) {
+      window.scrollTo({
+        top: vinylCollectionRef.current.offsetTop,
+        left: 0,
+        behavior: "smooth",
+      });
+    }
   };
 
   useIsomorphicLayoutEffect(() => {
@@ -62,6 +74,7 @@ export default function Home() {
         <Header
           handleWorkScroll={handleWorkScroll}
           handleAboutScroll={handleAboutScroll}
+          handleVinylCollectionScroll={handleVinylCollectionScroll}
         />
         <div className="laptop:mt-20 mt-10">
           <div className="mt-5">
@@ -129,6 +142,13 @@ export default function Home() {
               />
             ))}
           </div>
+        </div>
+        <div
+          className="mt-10 laptop:mt-30 p-2 laptop:p-0"
+          ref={vinylCollectionRef}
+        >
+          <h1 className="tablet:mt-10 text-3xl text-bold">Vinyl Collection.</h1>
+          <VinylCollection className="" />
         </div>
         <Footer />
       </div>
