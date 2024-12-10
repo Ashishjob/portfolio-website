@@ -28,7 +28,11 @@ const VinylCollection = () => {
     { id: 21, title: "Circles", artist: "Mac Miller", cover: "/vinyls/covers/circles.svg", disk: "/vinyls/disks/placeholder.svg" },
     { id: 22, title: "I Know NIGO!", artist: "Nigo", cover: "/vinyls/covers/nigo.svg", disk: "/vinyls/disks/placeholder.svg" },
     { id: 23, title: "Bad", artist: "Michael Jackson", cover: "/vinyls/covers/bad.svg", disk: "/vinyls/disks/bad.svg" },
-    { id: 24, title: "Jackboys", artist: "Jackboys", cover: "/vinyls/covers/jackboys.svg", disk: "/vinyls/disks/placeholder.svg" }
+    { id: 24, title: "Jackboys", artist: "Jackboys", cover: "/vinyls/covers/jackboys.svg", disk: "/vinyls/disks/placeholder.svg" },
+    { id: 25, title: "?", artist: "XXXTENTACION", cover: "/vinyls/covers/xxxtentacion.svg", disk: "/vinyls/disks/placeholder.svg" },
+    { id: 26, title: "King Of The Mischevious Sout Vol. 2", artist: "Denzel Curry", cover: "/vinyls/covers/denzel.svg", disk: "/vinyls/disks/placeholder.svg" },
+    { id: 27, title: "The Melodic Blue", artist: "Baby Keem", cover: "/vinyls/covers/keem.svg", disk: "/vinyls/disks/placeholder.svg" },
+    { id: 28, title: "Barbie - Ken Cover", artist: "Various Artists", cover: "/vinyls/covers/ken.svg", disk: "/vinyls/disks/placeholder.svg" }
 ];
 
   return (
