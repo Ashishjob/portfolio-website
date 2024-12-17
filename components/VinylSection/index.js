@@ -32,7 +32,8 @@ const VinylCollection = () => {
     { id: 25, title: "?", artist: "XXXTENTACION", cover: "/vinyls/covers/xxxtentacion.svg", disk: "/vinyls/disks/placeholder.svg" },
     { id: 26, title: "King Of The Mischevious Sout Vol. 2", artist: "Denzel Curry", cover: "/vinyls/covers/denzel.svg", disk: "/vinyls/disks/placeholder.svg" },
     { id: 27, title: "The Melodic Blue", artist: "Baby Keem", cover: "/vinyls/covers/keem.svg", disk: "/vinyls/disks/placeholder.svg" },
-    { id: 28, title: "Barbie - Ken Cover", artist: "Various Artists", cover: "/vinyls/covers/ken.svg", disk: "/vinyls/disks/placeholder.svg" }
+    { id: 28, title: "Barbie - Ken Cover", artist: "Various Artists", cover: "/vinyls/covers/ken.svg", disk: "/vinyls/disks/placeholder.svg" },
+    { id: 28, title: "Flower Boy", artist: "Tyler the Creator", cover: "/vinyls/covers/flowerboy.svg", disk: "/vinyls/disks/flowerboy.svg" }
 ];
 
   return (
