@@ -18,6 +18,15 @@
   ],
   "experiences": [
     {
+      "id": "0",
+      "title": "JPMorganChase",
+      "description": "Software Engineer",
+      "dates": "July 2025 - Present",
+      "imageSrc": "/images/jpmc.svg",
+      "url": "http://jpmc.com/",
+      "imgMobile": "/images/jpmc-mobile.svg"
+    },
+    {
       "id": "1",
       "title": "Resumes.fyi",
       "description": "Co-founder",
@@ -39,7 +48,7 @@
       "id": "3",
       "title": "NASA",
       "description": "Software Engineer Intern",
-      "dates": "January 2024 - Present",
+      "dates": "January 2024 - April 2025",
       "imageSrc": "/images/nasa.svg",
       "url": "http://nasa.gov/",
       "imgMobile": "/images/nasa-mobile.svg"
@@ -48,7 +57,7 @@
       "id": "4",
       "title": "University of Houston",
       "description": "Teaching Assistant",
-      "dates": "August 2024 - Present",
+      "dates": "August 2024 - May 2025",
       "imageSrc": "/images/uh.svg",
       "url": "http://uh.edu/",
       "imgMobile": "/images/uh-mobile.svg"
@@ -140,7 +149,7 @@
       "link": "https://www.figma.com/embed?embed_host=share&url=https%3A%2F%2Fwww.figma.com%2Fproto%2Fyxq73L0ROn9tvJZSwPrB6D%2FUntitled%3Fnode-id%3D2-3%26starting-point-node-id%3D2%253A3%26t%3DgXdH5qMbaidiTPAi-1%26mode%3Ddesign"
     }
   ],
-  "aboutpara": "Hey! I'm Ashish, studying computer science with a minor in math at the University of Houston. I'm really interested in AI and software engineering, and outside of tech, I love pandas, volleyball, drawing, manga, and discovering new music.",
+  "aboutpara": "Hey! I'm Ashish, a Software Engineer at JPMorganChase and a University of Houston computer science alum with a minor in math. I'm really interested in picking up new technologies, and outside of tech, I love pandas, volleyball, drawing, manga, and discovering new music.",
   "resume": {
     "tagline": "👋  I'm a software engineer, product designer.",
     "description": "I have delivered world-class user experiences to millions of people. Well-versed with React, Javascript, and most of the Web frameworks.",
